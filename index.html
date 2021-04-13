@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stop Watch</title>
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/mdb.css">
+	<style>
+		.btn
+		{
+			border-radius:20px;
+			box-shadow:0 0 10px black;
+			color:blue;
+		}
+	</style>
+</head>
+<body>
+	<div class="container mt-5">
+		<div class="row">
+			<div class="col-6 m-auto">
+				<div class="card">
+					<div class="card-header bg-secondary text-white text-center">
+						<h3>JS STOP WATCH</h3>
+					</div>
+					<div class="card-body bg-light text-center">
+						<h1 class="display-3">
+							<span id="min">00</span>
+							<span id="sec">00</span>
+							<span id="m-sec">00</span>
+						</h1>
+						<button class="btn btn-success" id="start-btn">Start</button>
+						<button class="btn btn-danger"id="stop-btn">Stop</button>
+						<button class="btn btn-warning"id='reset-btn'>Reset</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+
+<!--Script Code-->
+<script src="stopwatch.js"></script>
+</body>
+</html>
